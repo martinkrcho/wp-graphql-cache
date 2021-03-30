@@ -1,4 +1,4 @@
-WARNING: This is an ALPHA release and not feature complete yet.
+WARNING: This is an ALPHA release and not feature complete yet. :)
 
 # WPGraphQL Cache
 
