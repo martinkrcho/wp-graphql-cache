@@ -10,7 +10,8 @@
     ],
     "require": {
         "composer/installers": "^1.0",
-        "wp-graphql/wp-graphql": "0.13.3"
+        "wp-graphql/wp-graphql": "0.13.3",
+        "wpackagist-plugin/wp-security-audit-log":"4.2.1"
     },
     "extra": {
         "installer-paths": {
