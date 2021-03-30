@@ -8,7 +8,7 @@ export PATH="$(pwd)/vendor/bin:$PATH"
 
 
 composer install
-composer wp-install
+wp-install --full --env-file --wp-core-version=5.3 .env --wp-composer-file composer.wp-install.json
 
 if [ "$(wp-install --status)" = "full" ]; then
     wp-install --serve &
